@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320">
+  <rect width="320" height="320" rx="64" fill="#123B6D"/>
+  <path d="M58 82h204v156H58z" fill="#fff"/>
+  <path d="M58 82h204v22H58zM58 216h204v22H58z" fill="#F2B134"/>
+  <text x="160" y="178" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="83" font-weight="900" letter-spacing="-5" fill="#123B6D">UNH</text>
+  <path d="M88 193h144" stroke="#F2B134" stroke-width="8" stroke-linecap="round"/>
+</svg>
