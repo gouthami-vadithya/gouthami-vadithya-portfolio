@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <rect width="256" height="256" rx="52" fill="#168B8B"/>
+  <path d="M48 78h38m84 0h38M48 178h38m84 0h38M78 48v32m100-32v32M78 176v32m100-32v32" stroke="#BFECE5" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="48" cy="78" r="9" fill="#fff"/>
+  <circle cx="208" cy="78" r="9" fill="#fff"/>
+  <circle cx="48" cy="178" r="9" fill="#fff"/>
+  <circle cx="208" cy="178" r="9" fill="#fff"/>
+  <rect x="66" y="66" width="124" height="124" rx="28" fill="#fff"/>
+  <text x="128" y="143" text-anchor="middle" font-family="Arial, sans-serif" font-size="55" font-weight="800" fill="#168B8B">PMI</text>
+</svg>
