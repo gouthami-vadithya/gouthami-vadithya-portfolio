@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Centralized Receiving Workflow | Gouthami Vadithya</title><link rel="stylesheet" href="../../case-study.css"></head>
+<body>
+<header class="top-nav"><a class="brand" href="../../">Gouthami <span>Vadithya</span></a><nav><a href="../../#projects">Projects</a><a href="../../#experience">Experience</a><a href="../../#education">Education</a><a href="../../#contact">Contact</a></nav></header>
+<main>
+  <section class="case-hero">
+    <a class="case-back" href="../../#projects">← BACK TO PROJECTS</a>
+    <h1>Centralized Receiving Workflow</h1>
+    <p>Designing a consistent receiving process across three locations so deliveries, documentation, ownership, and exceptions followed one operating standard.</p>
+    <div class="case-metrics"><span>Process Design</span><span>Receiving</span><span>Controls</span><span>Change Management</span></div>
+    <div class="case-actions"><a class="deck-link" href="../../presentations/centralized-receiving.pptx">View Presentation</a><a class="linkedin-link" href="https://www.linkedin.com/in/gouthami-vadithya/" target="_blank" rel="noreferrer">Discuss this project</a></div>
+  </section>
+  <img class="case-cover" src="../../project-centralized-receiving.png" alt="Centralized Receiving Workflow project visual"><small class="case-caption">Portfolio visual representing the workflow and decision context.</small>
+  <div class="case-body">
+    <div class="case-summary"><div class="summary-item"><span>My role</span><strong>Process analyst and workflow designer</strong></div><div class="summary-item"><span>Core decision</span><strong>How three locations should receive and resolve material</strong></div><div class="summary-item"><span>Result</span><strong>One operating model across three sites</strong></div></div>
+    <section class="case-section"><h2>The business question</h2><div><p>Three locations handled deliveries differently. Inconsistent intake, documentation, and exception handling made it harder to confirm receipt, trace responsibility, and resolve missing or damaged material.</p><p class="case-note">The goal was to make the next decision clearer, not simply produce another report.</p></div></section>
+    <section class="case-section"><h2>How I approached it</h2><div><ol><li>Mapped the current-state receiving journey at each location.</li><li>Identified control gaps, handoff failures, and duplicate steps.</li><li>Designed one future-state workflow with standard intake, inspection, and escalation rules.</li><li>Defined roles, evidence requirements, and exception paths for common receiving scenarios.</li></ol><div class="decision-grid"><div class="decision-card"><strong>Evidence first</strong><p>I defined the information needed for the decision before choosing the format or tool.</p></div><div class="decision-card"><strong>Designed for action</strong><p>I connected each insight to an owner, threshold, review, or next step.</p></div></div></div></section>
+    <section class="case-section"><h2>What I delivered</h2><div><ul><li>Current-state and future-state process maps.</li><li>Standard receiving checklist.</li><li>Exception and escalation matrix.</li><li>Role-and-responsibility guide for local teams.</li></ul></div></section>
+    <section class="case-section"><h2>Business impact</h2><div><p>The design gave three locations a shared operating language and a clearer path from delivery to confirmed receipt. It reduced ambiguity in the process and made exception ownership explicit.</p><div class="impact-box"><strong>3 locations</strong><p>Aligned around one receiving workflow, one set of controls, and one escalation path.</p></div></div></section>
+    <section class="case-section"><h2>Tools and learning</h2><div><div class="tool-row"><span>Process Mapping</span><span>SIPOC</span><span>RACI</span><span>Root Cause Analysis</span><span>Change Management</span></div><h3>What I learned</h3><p>Standardization works only when the future-state process reflects how work actually moves at each location. Local differences need an explicit rule, not an informal workaround.</p></div></section>
+  </div>
+</main>
+</body>
+</html>
