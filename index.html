@@ -359,32 +359,12 @@
                   <p class="exp-date">September 2025 to Present</p>
                 </div>
               </div>
-              <ul>
-                <li>
-                  Support a redesigned SAP requisition-to-PO workflow across
-                  $50M+ in annual indirect spend covering IT, logistics, and
-                  facilities, reducing PR-to-PO cycle time by 30%.
-                </li>
-                <li>
-                  Execute RFx events and supplier negotiations in SAP Ariba
-                  using bid-analysis scorecards covering cost, delivery, and
-                  quality; contributed to $510K in verified annual cost
-                  reductions.
-                </li>
-                <li>
-                  Build Power BI category dashboards using SAP and Ariba data
-                  to track spend, savings, supplier performance, and contract
-                  timelines for Finance and procurement reviews.
-                </li>
-                <li>
-                  Run automated three-way-match invoice validation in SAP with
-                  Excel VBA for more than $1.2M in monthly invoice activity.
-                </li>
-                <li>
-                  Track open orders and supplier shortfalls, supporting 96%
-                  on-time delivery across indirect categories.
-                </li>
-              </ul>
+              <p class="experience-summary">
+                Support sourcing, purchasing operations, supplier performance,
+                contract tracking, and procurement reporting across IT,
+                logistics, and facilities using SAP, Ariba, Power BI, SQL, and
+                Excel VBA.
+              </p>
             </div>
           </article>
           <article>
@@ -399,25 +379,11 @@
                   <p class="exp-date">March 2021 to July 2023</p>
                 </div>
               </div>
-              <ul>
-                <li>
-                  Executed MRP-driven purchasing in SAP S/4HANA MM for
-                  electronic components and PCBs across 30+ active suppliers,
-                  maintaining 95% on-time material delivery to production.
-                </li>
-                <li>
-                  Maintained BOMs for R&amp;D and manufacturing assemblies and
-                  checked component coverage against open purchase orders.
-                </li>
-                <li>
-                  Managed MOQs, order multiples, lot sizes, lead times, safety
-                  stock, and reorder points, reducing excess inventory by 15%.
-                </li>
-                <li>
-                  Supported ECO reviews with R&amp;D and engineering and evaluated
-                  suppliers on capability, delivery reliability, and price.
-                </li>
-              </ul>
+              <p class="experience-summary">
+                Managed MRP-driven purchasing for electronic components and
+                PCBs, including purchase orders, material planning parameters,
+                BOM reviews, engineering changes, and supplier qualification.
+              </p>
             </div>
           </article>
           <article>
@@ -432,30 +398,11 @@
                   <p class="exp-date">January 2020 to March 2021</p>
                 </div>
               </div>
-              <ul>
-                <li>
-                  Coordinated inbound material flow for 15+ steel, cement, and
-                  concrete suppliers across concurrent construction sites.
-                </li>
-                <li>
-                  Tracked PPV against published commodity benchmarks and used
-                  cost-gap analysis to support supplier negotiations.
-                </li>
-                <li>
-                  Built supplier scorecards covering delivery, cost, and
-                  quality; findings supported non-renewal of two suppliers
-                  representing $230K in annual category spend.
-                </li>
-                <li>
-                  Used 5-Why analysis on recurring bottlenecks and coordinated
-                  corrective action that reduced production interruptions by
-                  21%.
-                </li>
-                <li>
-                  Used SQL and Power BI to track PO cycle time, delivery
-                  variance, and spend with automated weekly updates.
-                </li>
-              </ul>
+              <p class="experience-summary">
+                Coordinated structural-material deliveries across construction
+                sites and supported supplier performance, commodity-cost
+                analysis, purchasing reports, and supply-bottleneck resolution.
+              </p>
             </div>
           </article>
           <article>
@@ -470,17 +417,11 @@
                   <p class="exp-date">June 2019 to November 2019</p>
                 </div>
               </div>
-              <ul>
-                <li>
-                  Managed purchase-order follow-up across 30+ vendors during
-                  R&amp;D procurement cycles, prioritizing deliveries against lab
-                  schedules.
-                </li>
-                <li>
-                  Built Excel templates for purchase requisitions, GRN
-                  tracking, and invoice reconciliation.
-                </li>
-              </ul>
+              <p class="experience-summary">
+                Coordinated purchase-order follow-ups and delivery schedules for
+                R&amp;D procurement while maintaining Excel trackers for
+                requisitions, goods receipts, and invoice reconciliation.
+              </p>
             </div>
           </article>
           <article>
@@ -495,16 +436,11 @@
                   <p class="exp-date">October 2018 to March 2019</p>
                 </div>
               </div>
-              <ul>
-                <li>
-                  Built KPI dashboards in Tableau and Google Data Studio using
-                  SQL to track revenue, expenditure, and enrollment trends.
-                </li>
-                <li>
-                  Conducted financial analysis and demand forecasting to map
-                  seasonal enrollment patterns and support resource planning.
-                </li>
-              </ul>
+              <p class="experience-summary">
+                Built KPI dashboards and completed financial and demand
+                analysis to support enrollment planning, budgeting, and
+                resource decisions.
+              </p>
             </div>
           </article>
         </div>
@@ -775,24 +711,6 @@
       );
       pageSections.forEach((section) => navigationObserver.observe(section));
 
-      const experienceCards = document.querySelectorAll(".timeline article");
-      experienceCards.forEach((card, index) => {
-        card.classList.toggle("expanded", index === 0);
-        card.tabIndex = 0;
-        card.setAttribute("role", "button");
-        card.setAttribute("aria-expanded", index === 0 ? "true" : "false");
-        const toggleCard = () => {
-          const expanded = card.classList.toggle("expanded");
-          card.setAttribute("aria-expanded", String(expanded));
-        };
-        card.addEventListener("click", toggleCard);
-        card.addEventListener("keydown", (event) => {
-          if (event.key === "Enter" || event.key === " ") {
-            event.preventDefault();
-            toggleCard();
-          }
-        });
-      });
     </script>
   </body>
 </html>
